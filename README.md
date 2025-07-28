@@ -1,3 +1,5 @@
+
+
 # Binance Futures Order Bot
 
 A comprehensive CLI-based trading bot for Binance USDT-M Futures that supports multiple order types with robust logging, validation, and documentation.
@@ -31,7 +33,7 @@ A comprehensive CLI-based trading bot for Binance USDT-M Futures that supports m
 ## Project Structure
 
 ```
-BinanceFuturesOrderBot/
+aryan-binance-bot/
 │
 ├── src/                          # All source code
 │   ├── config.py                 # Configuration management
@@ -65,12 +67,12 @@ BinanceFuturesOrderBot/
 ### 1. Clone or Download the Project
 ```bash
 # If using git
-git clone <repository-url>
-cd BinanceFuturesOrderBot
+git clone https://github.com/aryan87360/aryan-binance-bot
+cd aryan-binance-bot
 
 # Or extract the zip file
 unzip [your_name]_binance_bot.zip
-cd BinanceFuturesOrderBot
+cd aryan-binance-bot
 ```
 
 ### 2. Install Dependencies
