@@ -1,0 +1,132 @@
+2025-07-29 04:25:32 | INFO | info | Test info message
+2025-07-29 04:25:32 | WARNING | warning | Test warning message
+2025-07-29 04:25:32 | ERROR | error | Test error message
+2025-07-29 04:25:32 | INFO | log_order_attempt | Order Attempt: {
+  "action": "ORDER_ATTEMPT",
+  "order_type": "TEST",
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "quantity": 0.01,
+  "price": null,
+  "timestamp": "2025-07-29T04:25:32.576445"
+}
+2025-07-29 04:31:14 | WARNING | log_validation_error | Validation Error: {
+  "action": "VALIDATION_ERROR",
+  "field": "symbol",
+  "value": "BTC",
+  "reason": "Invalid symbol format. Must end with USDT",
+  "timestamp": "2025-07-29T04:31:14.345311"
+}
+2025-07-29 04:31:14 | WARNING | log_validation_error | Validation Error: {
+  "action": "VALIDATION_ERROR",
+  "field": "symbol",
+  "value": "INVALID",
+  "reason": "Invalid symbol format. Must end with USDT",
+  "timestamp": "2025-07-29T04:31:14.345911"
+}
+2025-07-29 04:31:14 | WARNING | log_validation_error | Validation Error: {
+  "action": "VALIDATION_ERROR",
+  "field": "symbol",
+  "value": "",
+  "reason": "Invalid symbol format. Must end with USDT",
+  "timestamp": "2025-07-29T04:31:14.346054"
+}
+2025-07-29 04:31:14 | WARNING | log_validation_error | Validation Error: {
+  "action": "VALIDATION_ERROR",
+  "field": "quantity",
+  "value": "-1",
+  "reason": "Must be greater than 0",
+  "timestamp": "2025-07-29T04:31:14.347557"
+}
+2025-07-29 04:31:14 | INFO | info | Test info message
+2025-07-29 04:31:14 | WARNING | warning | Test warning message
+2025-07-29 04:31:14 | ERROR | error | Test error message
+2025-07-29 04:31:14 | INFO | log_order_attempt | Order Attempt: {
+  "action": "ORDER_ATTEMPT",
+  "order_type": "TEST",
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "quantity": 0.01,
+  "price": null,
+  "timestamp": "2025-07-29T04:31:14.348001"
+}
+2025-07-29 04:32:50 | WARNING | log_validation_error | Validation Error: {
+  "action": "VALIDATION_ERROR",
+  "field": "symbol",
+  "value": "BTC",
+  "reason": "Invalid symbol format. Must end with USDT",
+  "timestamp": "2025-07-29T04:32:50.771893"
+}
+2025-07-29 04:32:50 | WARNING | log_validation_error | Validation Error: {
+  "action": "VALIDATION_ERROR",
+  "field": "symbol",
+  "value": "INVALID",
+  "reason": "Invalid symbol format. Must end with USDT",
+  "timestamp": "2025-07-29T04:32:50.772157"
+}
+2025-07-29 04:32:50 | WARNING | log_validation_error | Validation Error: {
+  "action": "VALIDATION_ERROR",
+  "field": "symbol",
+  "value": "",
+  "reason": "Invalid symbol format. Must end with USDT",
+  "timestamp": "2025-07-29T04:32:50.772292"
+}
+2025-07-29 04:32:50 | WARNING | log_validation_error | Validation Error: {
+  "action": "VALIDATION_ERROR",
+  "field": "quantity",
+  "value": "-1",
+  "reason": "Must be greater than 0",
+  "timestamp": "2025-07-29T04:32:50.773605"
+}
+2025-07-29 04:32:50 | INFO | info | Test info message
+2025-07-29 04:32:50 | WARNING | warning | Test warning message
+2025-07-29 04:32:50 | ERROR | error | Test error message
+2025-07-29 04:32:50 | INFO | log_order_attempt | Order Attempt: {
+  "action": "ORDER_ATTEMPT",
+  "order_type": "TEST",
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "quantity": 0.01,
+  "price": null,
+  "timestamp": "2025-07-29T04:32:50.773960"
+}
+2025-07-29 04:49:46 | INFO | info | Loaded 211224 historical trading records
+2025-07-29 04:49:46 | INFO | info | Loaded 2644 Fear & Greed Index records
+2025-07-29 04:49:46 | ERROR | error | Analytics dashboard error: API_KEY and API_SECRET must be set in environment variables
+2025-07-29 04:50:09 | INFO | info | Loaded 211224 historical trading records
+2025-07-29 04:50:09 | INFO | info | Loaded 2644 Fear & Greed Index records
+2025-07-29 04:50:09 | INFO | info | Analytics Dashboard initialized
+2025-07-29 04:50:20 | INFO | info | Loaded 211224 historical trading records
+2025-07-29 04:50:20 | INFO | info | Loaded 2644 Fear & Greed Index records
+2025-07-29 04:50:20 | INFO | info | Analytics Dashboard initialized
+2025-07-29 04:50:29 | INFO | info | Loaded 211224 historical trading records
+2025-07-29 04:50:29 | INFO | info | Loaded 2644 Fear & Greed Index records
+2025-07-29 04:50:29 | INFO | info | Enhanced Market Order Manager initialized
+2025-07-29 04:50:30 | INFO | log_order_attempt | Order Attempt: {
+  "action": "ORDER_ATTEMPT",
+  "order_type": "ENHANCED_MARKET",
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "quantity": 0.01,
+  "price": null,
+  "timestamp": "2025-07-29T04:50:30.013782",
+  "analytics_enabled": true,
+  "sentiment_signal": "WEAK_SELL",
+  "risk_level": "MEDIUM"
+}
+2025-07-29 04:50:32 | INFO | info | Current BTCUSDT price: 118125.5
+2025-07-29 04:50:32 | ERROR | error | API request failed: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.008&timeInForce=GTC&timestamp=1753744832128&signature=1bca950ff7bda22de9e0818e10a41a15d32762265979f8e6a1e5b9e11c728e16
+2025-07-29 04:50:32 | ERROR | log_order_error | Order Error: {
+  "action": "ORDER_ERROR",
+  "error_type": "HTTPError",
+  "error_message": "401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.008&timeInForce=GTC&timestamp=1753744832128&signature=1bca950ff7bda22de9e0818e10a41a15d32762265979f8e6a1e5b9e11c728e16",
+  "order_details": {
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "quantity": 0.008,
+    "order_type": "ENHANCED_MARKET",
+    "analytics_enabled": true
+  },
+  "timestamp": "2025-07-29T04:50:32.725523"
+}
+2025-07-29 04:50:32 | ERROR | error | Enhanced market order failed: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.008&timeInForce=GTC&timestamp=1753744832128&signature=1bca950ff7bda22de9e0818e10a41a15d32762265979f8e6a1e5b9e11c728e16
